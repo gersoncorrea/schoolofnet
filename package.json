@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-teste-unitario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_win":"set NODE_ENV=test && mocha test './**/*.spec.js'",
+    "test": "export NODE_ENV=test && mocha test './**/*.spec.js'"
+  },
+  "author": "Gerson Corrêa",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
