@@ -1,16 +1,16 @@
 module.exports = {
-    sum: function(x,y){
+    sum: (x,y)=>{
         return x + y;
     },
-    sub: function(x,y){
+    sub: (x,y)=>{
         return x - y;
         
     },
-    mult: function(x,y){
+    mult: (x,y)=>{
         return x * y;
         
     },
-    div: function(x,y){
+    div: (x,y)=>{
         return x / y;   
     }
 }
