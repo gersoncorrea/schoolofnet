@@ -12,5 +12,8 @@ module.exports = {
     },
     div: (x,y)=>{
         return x / y;   
+    },
+    calc: function(x,y){
+        return this.sum(x,y)
     }
 }
